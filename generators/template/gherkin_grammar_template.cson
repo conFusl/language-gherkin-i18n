@@ -117,11 +117,11 @@ __LANG__
         'name': 'constant.character.escape.feature'
     }
     {
-        'match': "(\\s\\'.*?[^\\']\\'\\s)"
+        'match': "(\\s*\\'.*?[^\\']\\'\\s)"
         'name': 'string.single.qoute.gherkin'
     }
     {
-        'match': '(\\s\\".*?[^\\"]\\"\\s)'
+        'match': '(\\s*\\".*?[^\\"]\\"\\s)'
         'name': 'string.double.qoute.gherkin'
     }
     {
